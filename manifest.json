@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Open External Link",
+    "version": "1.0",
+    "description": "Open external links in a new tab",
+    "permissions": [
+        "tabs",
+        "scripting"
+    ],
+    "host_permissions": [
+        "https://*.schoology.com/*"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
